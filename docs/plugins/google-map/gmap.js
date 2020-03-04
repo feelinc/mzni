@@ -48,14 +48,13 @@ function initialize() {
     center: nottingham,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     backgroundColor: "#000",
-    zoom: 18,
+    zoom: 15,
     panControl: false,
     zoomControl: true,
     mapTypeControl: false,
     scaleControl: false,
     streetViewControl: false,
     overviewMapControl: false,
-    mapTypeId: "hybrid",
     zoomControlOptions: {
       style: google.maps.ZoomControlStyle.LARGE
     }
