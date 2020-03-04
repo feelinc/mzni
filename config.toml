@@ -1,4 +1,4 @@
-baseURL = "http://www.mznuruliman.or.id/"
+baseURL = "https://www.mznuruliman.or.id/"
 languageCode = "id-id"
 title = "Majelis Zikir Nurul Iman"
 theme = "hargo"
