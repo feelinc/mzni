@@ -1,0 +1,11 @@
+@import '../../themes/hargo/assets/scss/mixins';
+
+.cta-image {
+  z-index: 1000000;
+  
+  @include tablet {
+    display: block;
+    position: relative;
+    transform: translateY(-50%);
+  }
+}

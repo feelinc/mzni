@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ if .Site.Data.homepage.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+
+{{ if .Site.Data.contact.map.enable }}
+<section class="section pt-0 pb-0">
+  <div id="map_canvas" data-latitude="{{ with .Site.Params.mapLatitude }} {{ . }} {{ end }}"
+      data-longitude="{{ with .Site.Params.mapLongitude }} {{ . }} {{ end }}"
+      data-marker="{{ with .Site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ .Site.Title }}"></div>
+</section>
+{{ end }}
+
+{{ end }}
